@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+      width: 100%;
+      line-height: 15vh;
+      background-color: aqua;
+}
+h1{
+    text-align: center;
+    color: rgb(217, 226, 233);
+    font-size: 1.8rem;
+    font-family: 'Carter One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+section{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21 94 117);
+}
+.gameArea{
+    width: 50%;
+    height: 400px;
+    padding: 20px 0;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 5px 8px 6px -6px black;
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+input{
+    width: 40%;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: aquamarine;
+    color: black;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+button{
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: #2f3542;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #1a0846;
+}
+button.btn{
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background: rgb(148, 69, 222);
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.65,-0.25,0.25,1.95);
+}
+button.btn:hover,button.btn:focus,button.btn:active{
+    letter-spacing: 0.125rem;
+    word-spacing: 0.2rem;
+}
+.hidden{
+    display: none;
+}
